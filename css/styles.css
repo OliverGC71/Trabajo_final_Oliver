@@ -40,7 +40,6 @@ header nav ul li a.active {
     text-decoration: underline;
 }
 
-
 main {
     padding: 20px;
 }
@@ -50,13 +49,11 @@ main {
     margin-bottom: 20px;
 }
 
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
 }
-
 
 .product-item {
     background: #fff;
@@ -92,9 +89,18 @@ footer {
     padding: 15px 20px;
 }
 
-.container {
+.social-media {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 5px; 
+    justify-content: center;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.mapa-ubicacion {
+    width: 1200px;
+    height: auto;
 }
